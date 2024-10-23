@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <div className="app-container">
+        <h1 className="app-title"> 🐶 Puppy Pals</h1>
         <div className="puppy-list">
         {puppies.map((puppy) => {
           return (
